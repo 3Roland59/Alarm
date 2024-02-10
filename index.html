@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timer-display">00:00:00</div>
+        <div class="container">
+            <div class="inputs">
+                <input required type="number" id="hourInput" placeholder="00" min="0" max="23">
+                <input required type="number" id="minuteInput" placeholder="00" min="0" max="59">
+            </div>
+            <button id="set">Add Alarm</button>
+            <div class="activeAlarms"></div>
+        </div>
+    </div>
+
+    <small>@Ro_landcode</small>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
